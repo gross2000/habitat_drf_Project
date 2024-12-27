@@ -1,18 +1,18 @@
-Сборка образов
+1. Сборка образов
 
-docker-compose build
+    docker-compose build
 
-Запуск контейнеров
+2. Запуск контейнеров
 
-docker-compose up
+    docker-compose up
 
-Запуск контейнеров в фоне
+3. Запуск контейнеров в фоне
 
-docker-compose up -d
+    docker-compose up -d
 
-Сборка образа и запуск в фоне после успешной сборки
+4. Сборка образа и запуск в фоне после успешной сборки
 
-docker-compose up -d —build
+     docker-compose up -d —build
 
-Выполнение команды внутри контейнера
-docker-compose exec
+5. Выполнение команды внутри контейнера
+    docker-compose exec
